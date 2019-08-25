@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back"
+    android:id="@+id/frag1">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:id="@+id/email1"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:id="@+id/pass1"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/comfirm_pass1"
+        android:hint="Confirm Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/address1"
+        android:textColor="@color/white"
+        android:hint="Address"
+        android:textColorHint="@color/white" />
+    <EditText
+        android:layout_width="250dp"
+        android:id="@+id/first_name1"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:hint="First name"
+        android:textColorHint="@color/white" />
+    <EditText
+        android:layout_width="250dp"
+        android:id="@+id/last_name1"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:hint="Last name"
+        android:textColorHint="@color/white" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/age1"
+        android:textColor="@color/white"
+        android:hint="Age"
+        android:textColorHint="@color/white" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:id="@+id/save"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

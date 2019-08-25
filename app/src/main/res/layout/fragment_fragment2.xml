@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2"
+    android:id="@+id/frag2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/back2">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:id="@+id/email2"/>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/pass2"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/comfirm_pass2"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Address"
+        android:id="@+id/address2"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/first_name2"
+        android:hint="First Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/last_name2"
+        android:hint="Last Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/age2"
+        android:hint="Age"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
